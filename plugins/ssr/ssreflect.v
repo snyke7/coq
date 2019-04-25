@@ -426,11 +426,11 @@ Ltac ssrdone0 :=
 Structure unlockable T v := Unlockable {unlocked : T; _ : unlocked = v}.
 Lemma unlock T x C : @unlocked T x C = x. Proof. by case: C. Qed.
 
-Notation "[ 'unlockable' 'of' C ]" := (@Unlockable _ _ C (unlock _))
-  (at level 0, format "[ 'unlockable'  'of'  C ]") : form_scope.
+Notation "[ 'unlockable' 'of' C ]" :=
+  (@Unlockable _ _ C (unlock _)) : form_scope.
 
-Notation "[ 'unlockable' 'fun' C ]" := (@Unlockable _ (fun _ => _) C (unlock _))
-  (at level 0, format "[ 'unlockable'  'fun'  C ]") : form_scope.
+Notation "[ 'unlockable' 'fun' C ]" :=
+  (@Unlockable _ (fun _ => _) C (unlock _)) : form_scope.
 
 (**  Generic keyed constant locking.  **)
 
@@ -603,17 +603,14 @@ Module NonPropType.
  failure.
  **)
 
-#[universes(template)]
 Structure call_of (condition : unit) (result : bool) := Call {callee : Type}.
 Definition maybeProp (T : Type) := tt.
 Definition call T := Call (maybeProp T) false T.
 
-#[universes(template)]
 Structure test_of (result : bool) := Test {condition :> unit}.
 Definition test_Prop (P : Prop) := Test true (maybeProp P).
 Definition test_negative := Test false tt.
 
-#[universes(template)]
 Structure type :=
   Check {result : bool; test : test_of result; frame : call_of test result}.
 Definition check result test frame := @Check result test frame.

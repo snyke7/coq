@@ -306,48 +306,48 @@ Reserved Notation "~~ b" (at level 35, right associativity).
 Reserved Notation "b ==> c" (at level 55, right associativity).
 Reserved Notation "b1 (+) b2" (at level 50, left associativity).
 
-Reserved Notation "x \in A" (at level 70, no associativity, format
-  "'[hv' x '/ '  \in  A ']'").
-Reserved Notation "x \notin A" (at level 70, no associativity, format
-  "'[hv' x '/ '  \notin  A ']'").
-Reserved Notation "x \is A" (at level 70, no associativity, format
-  "'[hv' x '/ '  \is  A ']'").
-Reserved Notation "x \isn't A" (at level 70, no associativity, format
-  "'[hv' x '/ '  \isn't  A ']'").
-Reserved Notation "x \is 'a' A" (at level 70, no associativity, format
-  "'[hv' x '/ '  \is  'a'  A ']'").
-Reserved Notation "x \isn't 'a' A" (at level 70, no associativity, format
-  "'[hv' x '/ '  \isn't  'a'  A ']'").
-Reserved Notation "x \is 'an' A" (at level 70, no associativity, format
-  "'[hv' x '/ '  \is  'an'  A ']'").
-Reserved Notation "x \isn't 'an' A" (at level 70, no associativity, format
-  "'[hv' x '/ '  \isn't  'an'  A ']'").
-Reserved Notation "p1 =i p2" (at level 70, no associativity, format
-  "'[hv' p1 '/ '  =i  p2 ']'").
+Reserved Notation "x \in A" (at level 70, no associativity,
+  format "'[hv' x '/ '  \in  A ']'").
+Reserved Notation "x \notin A" (at level 70, no associativity,
+  format "'[hv' x '/ '  \notin  A ']'").
+Reserved Notation "x \is A" (at level 70, no associativity,
+  format "'[hv' x '/ '  \is  A ']'").
+Reserved Notation "x \isn't A" (at level 70, no associativity,
+  format "'[hv' x '/ '  \isn't  A ']'").
+Reserved Notation "x \is 'a' A" (at level 70, no associativity,
+  format "'[hv' x '/ '  \is  'a'  A ']'").
+Reserved Notation "x \isn't 'a' A" (at level 70, no associativity,
+  format "'[hv' x '/ '  \isn't  'a'  A ']'").
+Reserved Notation "x \is 'an' A" (at level 70, no associativity,
+  format "'[hv' x '/ '  \is  'an'  A ']'").
+Reserved Notation "x \isn't 'an' A" (at level 70, no associativity,
+  format "'[hv' x '/ '  \isn't  'an'  A ']'").
+Reserved Notation "p1 =i p2" (at level 70, no associativity,
+  format "'[hv' p1 '/ '  =i  p2 ']'").
 Reserved Notation "{ 'subset' A <= B }" (at level 0, A, B at level 69,
-   format "'[hv' { 'subset'  A '/    '  <=  B } ']'").
+  format "'[hv' { 'subset'  A '/    '  <=  B } ']'").
 
 Reserved Notation "{ : T }" (at level 0, format "{ :  T }").
 Reserved Notation "{ 'pred' T }" (at level 0, format "{ 'pred'  T }").
-Reserved Notation "[ 'predType' 'of' T ]" (at level 0, format
-  "[ 'predType'  'of'  T ]").
+Reserved Notation "[ 'predType' 'of' T ]" (at level 0,
+  format "[ 'predType'  'of'  T ]").
 
-Reserved Notation "[ 'pred' : T | E ]" (at level 0, format
-  "'[hv' [ 'pred' :  T  | '/ '  E ] ']'").
-Reserved Notation "[ 'pred' x | E ]" (at level 0, x ident, format
-  "'[hv' [ 'pred'  x  | '/ '  E ] ']'").
-Reserved Notation "[ 'pred' x : T | E ]" (at level 0, x ident, format
-  "'[hv' [ 'pred'  x  :  T  | '/ '  E ] ']'").
-Reserved Notation "[ 'pred' x | E1 & E2 ]" (at level 0, x ident, format
-  "'[hv' [ 'pred'  x  | '/ '  E1  & '/ '  E2 ] ']'").
-Reserved Notation "[ 'pred' x : T | E1 & E2 ]" (at level 0, x ident, format
-  "'[hv' [ 'pred'  x  :  T  | '/ '  E1  &  E2 ] ']'").
-Reserved Notation "[ 'pred' x 'in' A ]" (at level 0, x ident, format
-  "'[hv' [ 'pred'  x  'in'  A ] ']'").
-Reserved Notation "[ 'pred' x 'in' A | E ]" (at level 0, x ident, format
-  "'[hv' [ 'pred'  x  'in'  A  | '/ '  E ] ']'").
-Reserved Notation "[ 'pred' x 'in' A | E1 & E2 ]" (at level 0, x ident, format
-  "'[hv' [ 'pred'  x  'in'  A  | '/ '  E1  & '/ '  E2 ] ']'").
+Reserved Notation "[ 'pred' : T | E ]" (at level 0,
+  format "'[hv' [ 'pred' :  T  | '/ '  E ] ']'").
+Reserved Notation "[ 'pred' x | E ]" (at level 0, x ident,
+  format "'[hv' [ 'pred'  x  | '/ '  E ] ']'").
+Reserved Notation "[ 'pred' x : T | E ]" (at level 0, x ident,
+  format "'[hv' [ 'pred'  x  :  T  | '/ '  E ] ']'").
+Reserved Notation "[ 'pred' x | E1 & E2 ]" (at level 0, x ident,
+  format "'[hv' [ 'pred'  x  | '/ '  E1  & '/ '  E2 ] ']'").
+Reserved Notation "[ 'pred' x : T | E1 & E2 ]" (at level 0, x ident,
+  format "'[hv' [ 'pred'  x  :  T  | '/ '  E1  &  E2 ] ']'").
+Reserved Notation "[ 'pred' x 'in' A ]" (at level 0, x ident,
+  format "'[hv' [ 'pred'  x  'in'  A ] ']'").
+Reserved Notation "[ 'pred' x 'in' A | E ]" (at level 0, x ident,
+  format "'[hv' [ 'pred'  x  'in'  A  | '/ '  E ] ']'").
+Reserved Notation "[ 'pred' x 'in' A | E1 & E2 ]" (at level 0, x ident,
+  format "'[hv' [ 'pred'  x  'in'  A  | '/ '  E1  & '/ '  E2 ] ']'").
 
 Reserved Notation "[ 'qualify' x | P ]" (at level 0, x at level 99,
   format "'[hv' [  'qualify'  x  | '/ '  P ] ']'").
@@ -362,10 +362,10 @@ Reserved Notation "[ 'qualify' 'an' x | P ]" (at level 0, x at level 99,
 Reserved Notation "[ 'qualify' 'an' x : T | P ]" (at level 0, x at level 99,
   format "'[hv' [ 'qualify'  'an'  x  :  T  | '/ '  P ] ']'").
 
-Reserved Notation "[ 'rel' x y | E ]"  (at level 0, x ident, y ident, format
-  "'[hv' [ 'rel'  x  y  | '/ '  E ] ']'").
-Reserved Notation "[ 'rel' x y : T | E ]" (at level 0, x ident, y ident, format
-  "'[hv' [ 'rel'  x  y  :  T  | '/ '  E ] ']'").
+Reserved Notation "[ 'rel' x y | E ]"  (at level 0, x ident, y ident,
+  format "'[hv' [ 'rel'  x  y  | '/ '  E ] ']'").
+Reserved Notation "[ 'rel' x y : T | E ]" (at level 0, x ident, y ident,
+  format "'[hv' [ 'rel'  x  y  :  T  | '/ '  E ] ']'").
 Reserved Notation "[ 'rel' x y 'in' A & B | E ]" (at level 0, x ident, y ident,
   format "'[hv' [ 'rel'  x  y  'in'  A  &  B  | '/ '  E ] ']'").
 Reserved Notation "[ 'rel' x y 'in' A & B ]" (at level 0, x ident, y ident,
@@ -376,44 +376,42 @@ Reserved Notation "[ 'rel' x y 'in' A ]" (at level 0, x ident, y ident,
   format "'[hv' [ 'rel'  x  y  'in'  A ] ']'").
 
 Reserved Notation "[ 'mem' A ]" (at level 0, format "[ 'mem'  A ]").
-Reserved Notation "[ 'rel' x 'of' fA ]" (at level 0, x ident, format
-  "[ 'rel'  x  'of'  fA ]").
-Reserved Notation "[ 'predI' A & B ]" (at level 0, format
-  "[ 'predI'  A  &  B ]").
-Reserved Notation "[ 'predU' A & B ]" (at level 0, format
-  "[ 'predU'  A  &  B ]").
-Reserved Notation "[ 'predD' A & B ]" (at level 0, format
-  "[ 'predD'  A  &  B ]").
-Reserved Notation "[ 'predC' A ]" (at level 0, format
-  "[ 'predC'  A ]").
-Reserved Notation "[ 'preim' f 'of' A ]" (at level 0, format
-  "[ 'preim'  f  'of'  A ]").
+Reserved Notation "[ 'predI' A & B ]" (at level 0,
+  format "[ 'predI'  A  &  B ]").
+Reserved Notation "[ 'predU' A & B ]" (at level 0,
+  format "[ 'predU'  A  &  B ]").
+Reserved Notation "[ 'predD' A & B ]" (at level 0,
+  format "[ 'predD'  A  &  B ]").
+Reserved Notation "[ 'predC' A ]" (at level 0,
+  format "[ 'predC'  A ]").
+Reserved Notation "[ 'preim' f 'of' A ]" (at level 0,
+  format "[ 'preim'  f  'of'  A ]").
 
-Reserved Notation "\unless C , P" (at level 200, C at level 100, format
-   "'[hv' \unless  C , '/ '  P ']'").
+Reserved Notation "\unless C , P" (at level 200, C at level 100,
+  format "'[hv' \unless  C , '/ '  P ']'").
 
-Reserved Notation "{ 'for' x , P }" (at level 0, format
-  "'[hv' { 'for'  x , '/ '  P } ']'").
-Reserved Notation "{ 'in' d , P }" (at level 0, format
-  "'[hv' { 'in'  d , '/ '  P } ']'").
-Reserved Notation "{ 'in' d1 & d2 , P }" (at level 0, format
-  "'[hv' { 'in'  d1  &  d2 , '/ '  P } ']'").
-Reserved Notation "{ 'in' d & , P }" (at level 0, format
-  "'[hv' { 'in'  d  & , '/ '  P } ']'").
-Reserved Notation "{ 'in' d1 & d2 & d3 , P }" (at level 0, format
-  "'[hv' { 'in'  d1  &  d2  &  d3 , '/ '  P } ']'").
-Reserved Notation "{ 'in' d1 & & d3 , P }" (at level 0, format
-  "'[hv' { 'in'  d1  &  &  d3 , '/ '  P } ']'").
-Reserved Notation "{ 'in' d1 & d2 & , P }" (at level 0, format
-  "'[hv' { 'in'  d1  &  d2  & , '/ '  P } ']'").
-Reserved Notation "{ 'in' d & & , P }" (at level 0, format
-  "'[hv' { 'in'  d  &  & , '/ '  P } ']'").
-Reserved Notation "{ 'on' cd , P }" (at level 0, format
-  "'[hv' { 'on'  cd , '/ '  P } ']'").
-Reserved Notation "{ 'on' cd & , P }" (at level 0, format
-  "'[hv' { 'on'  cd  & , '/ '  P } ']'").
-Reserved Notation "{ 'on' cd , P & g }" (at level 0, g at level 8, format
-  "'[hv' { 'on'  cd , '/ '  P  &  g } ']'").
+Reserved Notation "{ 'for' x , P }" (at level 0,
+  format "'[hv' { 'for'  x , '/ '  P } ']'").
+Reserved Notation "{ 'in' d , P }" (at level 0,
+  format "'[hv' { 'in'  d , '/ '  P } ']'").
+Reserved Notation "{ 'in' d1 & d2 , P }" (at level 0,
+  format "'[hv' { 'in'  d1  &  d2 , '/ '  P } ']'").
+Reserved Notation "{ 'in' d & , P }" (at level 0,
+  format "'[hv' { 'in'  d  & , '/ '  P } ']'").
+Reserved Notation "{ 'in' d1 & d2 & d3 , P }" (at level 0,
+  format "'[hv' { 'in'  d1  &  d2  &  d3 , '/ '  P } ']'").
+Reserved Notation "{ 'in' d1 & & d3 , P }" (at level 0,
+  format "'[hv' { 'in'  d1  &  &  d3 , '/ '  P } ']'").
+Reserved Notation "{ 'in' d1 & d2 & , P }" (at level 0,
+  format "'[hv' { 'in'  d1  &  d2  & , '/ '  P } ']'").
+Reserved Notation "{ 'in' d & & , P }" (at level 0,
+  format "'[hv' { 'in'  d  &  & , '/ '  P } ']'").
+Reserved Notation "{ 'on' cd , P }" (at level 0,
+  format "'[hv' { 'on'  cd , '/ '  P } ']'").
+Reserved Notation "{ 'on' cd & , P }" (at level 0,
+  format "'[hv' { 'on'  cd  & , '/ '  P } ']'").
+Reserved Notation "{ 'on' cd , P & g }" (at level 0, g at level 8,
+  format "'[hv' { 'on'  cd , '/ '  P  &  g } ']'").
 Reserved Notation "{ 'in' d , 'bijective' f }" (at level 0, f at level 8,
    format "'[hv' { 'in'  d , '/ '  'bijective'  f } ']'").
 Reserved Notation "{ 'on' cd , 'bijective' f }" (at level 0, f at level 8,
@@ -1328,6 +1326,7 @@ Lemma sub_refl mp : sub_mem mp mp. Proof. by []. Qed.
  Finally, no component of inE matches x \in Acoll, when
    Definition Acoll : collective_pred := [pred x | ...].
  as the collective_pred_of_simpl is _not_ convertible to pred_of_simpl.  **)
+
 #[universes(template)]
 Structure registered_applicative_pred p := RegisteredApplicativePred {
   applicative_pred_value :> pred T;
@@ -1443,7 +1442,6 @@ Notation "[ 'pred' x 'in' A | E1 & E2 ]" :=
 Notation "[ 'rel' x y | E ]" := (SimplRel (fun x y => E%B)) : fun_scope.
 Notation "[ 'rel' x y : T | E ]" :=
   (SimplRel (fun x y : T => E%B)) (only parsing) : fun_scope.
-Notation "[ 'rel' x 'of' fA ]" := (fun x => [mem (fA x)]) : fun_scope.
 Notation "[ 'rel' x y 'in' A & B | E ]" :=
   [rel x y | (x \in A) && (y \in B) && E] : fun_scope.
 Notation "[ 'rel' x y 'in' A & B ]" :=
